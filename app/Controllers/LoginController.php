@@ -16,10 +16,10 @@ class LoginController extends Controller
         $authentication = Services::authentication();
 
         // 로그인 여부 체크
-        // if ($authentication->check()) {
-        //     // 이미 로그인 상태인 경우 메인 페이지로 리디렉션
-        //     return redirect()->to('/');
-        // }
+        if ($authentication->check()) {
+            // 이미 로그인 상태인 경우 메인 페이지로 리디렉션
+            return redirect()->to('/');
+        }
 
         return view('login_page');
     }

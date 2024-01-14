@@ -8,6 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/common.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <style>
         body {
@@ -15,11 +16,10 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #ffffff;
         }
         .login-form {
             width: 100%;
-            max-width: 400px;
+            /* max-width: 400px; */
             padding: 15px;
             margin: auto;
         }
@@ -49,7 +49,7 @@
     </style>
 </head>
 <body>
-    <div class="login-form">
+    <div class="login-form container">
         <h1 class="login-title text-center mb-4">간호사 <span>투약 도우미</span></h1>
         <div class="d-flex justify-content-center mb-4">
             <img src="<?= base_url('assets/images/hospital2.png'); ?>" alt="로고 이미지" class="img-fluid" style="max-width: 200px; height: auto;">
