@@ -13,6 +13,7 @@ $routes->group('/', ['namespace' => 'App\Controllers'], function($routes) {
     $routes->get('tools', 'Home::drugInfusionTools');
     $routes->get('patientlist', 'Home::patientList');
     $routes->get('patientinfo', 'Home::patientDetails');
+    $routes->get('presdetails', 'Home::prescriptionDetails');
     
 });
 

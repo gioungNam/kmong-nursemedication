@@ -28,4 +28,9 @@ class Home extends BaseController
     {
         return view('patient_details');
     }
+
+    public function prescriptionDetails(): string
+    {
+        return view('prescription_details');
+    }
 }

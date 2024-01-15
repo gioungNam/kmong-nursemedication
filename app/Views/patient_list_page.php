@@ -33,6 +33,11 @@
         .container {
             max-width: 600px;
         }
+
+        .bi-person-circle {
+            font-size: 2rem;
+        }
+
         @media (max-width: 400px) {
         .patient-table {
             font-size: 0.8rem; /* 모바일 화면에서의 작은 글자 크기 */
