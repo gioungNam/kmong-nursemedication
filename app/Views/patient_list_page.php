@@ -19,7 +19,6 @@
         .info-btn, .medication-btn {
             border: none;
             border-radius: 5px; /* 모서리 약간 깎임 */
-            margin-bottom: 10px; /* 버튼 사이 간격 */
         }
         .info-btn {
             background-color: #007bff; /* 파란색 */
@@ -72,7 +71,6 @@
                 <td>F/66/천식</td>
                 <td>
                     <button class="info-btn" onclick="location.href='patientinfo';">정보</button><br>
-                    <button class="medication-btn">투약</button>
                 </td>
             </tr>
             <tr>
@@ -81,7 +79,6 @@
                 <td>M/54/기관지염</td>
                 <td>
                     <button class="info-btn">정보</button><br>
-                    <button class="medication-btn">투약</button>
                 </td>
             </tr>
             <tr>
@@ -90,7 +87,6 @@
                 <td>M/33/폐렴</td>
                 <td>
                     <button class="info-btn">정보</button><br>
-                    <button class="medication-btn">투약</button>
                 </td>
             </tr>
             <tr>
@@ -99,7 +95,6 @@
                 <td>F/71/결핵</td>
                 <td>
                     <button class="info-btn">정보</button><br>
-                    <button class="medication-btn">투약</button>
                 </td>
             </tr>
             <tr>
@@ -108,7 +103,6 @@
                 <td>F/33/기흉</td>
                 <td>
                     <button class="info-btn">정보</button><br>
-                    <button class="medication-btn">투약</button>
                 </td>
             </tr>
         </tbody>
