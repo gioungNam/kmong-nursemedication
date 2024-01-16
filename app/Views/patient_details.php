@@ -41,6 +41,10 @@
         cursor: pointer; /* 클릭 가능함을 나타냄 */
     }
         
+
+    .bold-text {
+        font-weight: bold; /* 굵은 글씨체 */
+    }
     </style>
 </head>
 <body>
@@ -67,25 +71,25 @@
     </div>
 
     <hr>
-    <h5>*주호소</h5>
+    <h5 class="bold-text">*주호소</h5>
     <ul class="info-list">
         <li>asthma</li>
     </ul>
 
     <hr>
-    <h5>*기저질환</h5>
+    <h5 class="bold-text">*기저질환</h5>
     <ul class="info-list">
         <li>hypertension</li>
         <li>diabetes mellitus (DM)</li>
     </ul>
 
     <hr>
-    <h5>*특이사항</h5>
+    <h5 class="bold-text">*특이사항</h5>
     <ul class="info-list">
         <li>페니실린 알레르기</li>
     </ul>
     <hr>
-    <h5><처방전></h5>
+    <h5 class="bold-text"><처방전></h5>
     <table class="table table-bordered patient-table">
         <thead>
             <tr>
